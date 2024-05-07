@@ -39,3 +39,9 @@ Add Docker Compose
 Langchain
 
 Add tests
+
+
+langchain
+https://python.langchain.com/docs
+
+openai llm
