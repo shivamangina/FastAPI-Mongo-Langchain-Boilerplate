@@ -1,1 +1,9 @@
 .env
+
+envs
+
+# Python temp files
+__pycache__/
+*.py[cod]
+*$py.class
+app/__pycache__

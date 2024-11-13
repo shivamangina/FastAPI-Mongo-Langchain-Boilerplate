@@ -3,10 +3,6 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
 
-from dotenv import load_dotenv
-
-load_dotenv()
-
 
 def generate_pet_name(animal_type, pet_color, openai_api_key):
     llm = OpenAI(temperature=0.7, openai_api_key=openai_api_key)
@@ -23,5 +19,3 @@ def generate_pet_name(animal_type, pet_color, openai_api_key):
 
     return response
 
-if __name__ == "__main__":
-    print(generate_pet_name("Dog", "Black"))
